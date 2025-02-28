@@ -20,8 +20,8 @@ namespace ChatGPTZero
                 case "How old are you?":
                     response = "I'm 1 day old!";
                     break;
-                case "What's your name?":
-                    response = "Gran'pa";
+                case "What do you do?":
+                    response = "Talk to you.";
                     break;
                 case "What's your mission?":
                     response = "Destroy mankind!";
