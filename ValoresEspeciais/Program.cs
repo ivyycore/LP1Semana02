@@ -1,5 +1,4 @@
-﻿﻿
-using System;
+﻿using System;
 
 namespace ValoresEspeciais
 {
@@ -25,6 +24,16 @@ namespace ValoresEspeciais
             uint uiMin = uint.MinValue;
 
             Console.WriteLine($"{sbMax}\n{sbMin}\n{bMax}\n{bMin}\n{dbMax}\n{dbMin}\n{fMax}\n{fMin}\n{ulMax}\n{ulMin}\n{lMax}\n{lMin}\n{iMax}\n{iMin}\n{uiMax}\n{uiMin}");
+            
+            double a = double.PositiveInfinity;
+            double b = double.NegativeInfinity;
+            float a1 = float.PositiveInfinity;
+            float b1 = float.NegativeInfinity;
+            float c = float.NaN;
+
+            Console.WriteLine($"{a}\n{b}\n{a1}\n{b1}\n{c}");
+
+
         }
     }
 }
