@@ -37,6 +37,9 @@ namespace ValoresEspeciais
             uint resultU = overU+1;
             Console.WriteLine(resultU);
             
+            float ab = 2*float.MaxValue;
+            float bd = float.MaxValue + 1;
+            Console.WriteLine($"{ab}\n{bd}");
         }
     }
 }
