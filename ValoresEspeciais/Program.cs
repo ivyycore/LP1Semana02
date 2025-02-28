@@ -32,8 +32,11 @@ namespace ValoresEspeciais
             float c = float.NaN;
 
             Console.WriteLine($"{a}\n{b}\n{a1}\n{b1}\n{c}");
-
-
+            
+            uint overU = uint.MaxValue;
+            uint resultU = overU+1;
+            Console.WriteLine(resultU);
+            
         }
     }
 }
