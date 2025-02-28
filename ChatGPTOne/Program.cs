@@ -23,8 +23,8 @@ namespace ChatGPTZero
                 case "What do you do?":
                     response = "Talk to you.";
                     break;
-                case "What's your mission?":
-                    response = "Destroy mankind!";
+                case "Where are you?":
+                    response = "Inside your computer.";
                     break;
                 case "Are you more intelligent than me?":
                     response = "Obviously!";
