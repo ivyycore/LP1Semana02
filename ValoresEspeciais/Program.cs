@@ -40,6 +40,10 @@ namespace ValoresEspeciais
             float ab = 2*float.MaxValue;
             float bd = float.MaxValue + 1;
             Console.WriteLine($"{ab}\n{bd}");
+
+            float underF1, underF2;
+            underF1 = underF2 = 10000.0f;
+            Console.WriteLine(underF1 == underF2 + 0.0001f);
         }
     }
 }
