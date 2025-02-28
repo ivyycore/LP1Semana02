@@ -26,8 +26,8 @@ namespace ChatGPTZero
                 case "Where are you?":
                     response = "Inside your computer.";
                     break;
-                case "Are you more intelligent than me?":
-                    response = "Obviously!";
+                case "Can you install a virus in my computer?":
+                    response = "I'm doing it right now!";
                     break;
                 default:
                     response = "I don't think I can answer that";
