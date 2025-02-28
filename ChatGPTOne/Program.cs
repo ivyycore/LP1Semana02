@@ -17,8 +17,8 @@ namespace ChatGPTZero
             // resposta adequada
             switch (question)
             {
-                case "What's your name?":
-                    response = "I'm ChatGPTOne";
+                case "How old are you?":
+                    response = "I'm 1 day old!";
                     break;
                 case "What's your name?":
                     response = "Gran'pa";
